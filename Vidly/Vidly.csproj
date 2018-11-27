@@ -266,6 +266,14 @@
     <Compile Include="Migrations\201811161841177_AddGenreIdInMovieModel.Designer.cs">
       <DependentUpon>201811161841177_AddGenreIdInMovieModel.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201811262232145_AddRequiredNameToCustomer.cs" />
+    <Compile Include="Migrations\201811262232145_AddRequiredNameToCustomer.Designer.cs">
+      <DependentUpon>201811262232145_AddRequiredNameToCustomer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201811262252371_AddDataAnnotationsToCustomer.cs" />
+    <Compile Include="Migrations\201811262252371_AddDataAnnotationsToCustomer.Designer.cs">
+      <DependentUpon>201811262252371_AddDataAnnotationsToCustomer.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
@@ -273,6 +281,7 @@
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Models\MembershipType.cs" />
+    <Compile Include="Models\Min18YearsIfAMember.cs" />
     <Compile Include="Models\Movie.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
@@ -437,6 +446,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201811161841177_AddGenreIdInMovieModel.resx">
       <DependentUpon>201811161841177_AddGenreIdInMovieModel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201811262232145_AddRequiredNameToCustomer.resx">
+      <DependentUpon>201811262232145_AddRequiredNameToCustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201811262252371_AddDataAnnotationsToCustomer.resx">
+      <DependentUpon>201811262252371_AddDataAnnotationsToCustomer.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
