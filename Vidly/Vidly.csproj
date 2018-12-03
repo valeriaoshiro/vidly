@@ -274,6 +274,10 @@
     <Compile Include="Migrations\201811262252371_AddDataAnnotationsToCustomer.Designer.cs">
       <DependentUpon>201811262252371_AddDataAnnotationsToCustomer.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201811282202575_AddRageToNumberInStock.cs" />
+    <Compile Include="Migrations\201811282202575_AddRageToNumberInStock.Designer.cs">
+      <DependentUpon>201811282202575_AddRageToNumberInStock.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
@@ -452,6 +456,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201811262252371_AddDataAnnotationsToCustomer.resx">
       <DependentUpon>201811262252371_AddDataAnnotationsToCustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201811282202575_AddRageToNumberInStock.resx">
+      <DependentUpon>201811282202575_AddRageToNumberInStock.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
