@@ -43,7 +43,7 @@ namespace Vidly.Controllers
 			return View(movies);
 		}
 
-		// GET: Movies/Random
+		// GET: Movies/New
 		public ActionResult New()
 		{
 			var genres = _context.Genres.ToList();
