@@ -26,7 +26,10 @@ namespace Vidly.Controllers
 
 		public ActionResult Index()
 		{
-			return View();
+			if(User.IsInRole("CanManageMovie"))
+				return View("List");
+
+			return View("ReadOnlyList");
 		}
 
 		public ActionResult Details(int id)
@@ -43,6 +46,7 @@ namespace Vidly.Controllers
 		}
 
 		// GET: Movies/New
+		[Authorize(Roles = RoleName.CanManageMovie)]
 		public ActionResult New()
 		{
 			var genres = _context.Genres.ToList();
